@@ -63,6 +63,10 @@ a {
   border: none;
 }
 
+.logo-link {
+  border: none;
+}
+
 .logo-image {
   display: inline-block;
   justify-self: center;
@@ -306,7 +310,7 @@ a {
   padding-top: 3px;
 }
 
-.about-title { 
+.about-title {
   margin-bottom: 100px;
   color: #000;
   font-family: Raleway;
