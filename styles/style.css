@@ -1,1 +1,366 @@
-/* место для вашего кода */
+/* General Styles */
+
+body {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+a {
+  border-bottom: 1px solid black;
+  color: #000;
+  font-family: Raleway;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px; /* 135% */
+  text-decoration: none;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background: #000;
+}
+
+/* Header Styles Start */
+.header {
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+  width: 1052px;
+  margin: 92px 24px 96px;
+  padding-right: 25.48px;
+  padding-left: 26.52px;
+}
+
+.menu {
+  justify-self: start;
+  width: 391px;
+  max-width: 391px;
+  height: 22px;
+  margin: 44px 0 30px;
+}
+
+.menu-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: normal;
+  letter-spacing: 0.18px;
+  list-style-type: none;
+}
+
+.list-marker {
+  width: 7px;
+  height: 7px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.menu-link-active {
+  border: none;
+}
+
+.logo-image {
+  display: inline-block;
+  justify-self: center;
+  align-self: center;
+  width: 148px;
+  height: 105px;
+}
+
+.contacts {
+  display: inline-block;
+  justify-self: end;
+  width: 240.521px;
+  height: 98px;
+  margin: 5px 0 2px;
+}
+
+.contacts-list {
+  color: #000;
+  font-family: Raleway;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px; /* 135% */
+  letter-spacing: 0.18px;
+  list-style-type: none;
+}
+
+/* Header Styles End */
+
+/* Cover CSS Start */
+
+.hero-banner {
+  position: relative;
+  width: 100%;
+  margin-bottom: 179px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 135px;
+  padding: 165px 50px 0;
+  color: #FFF;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 100px;
+  font-style: normal;
+  line-height: 115px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.hero-title-word {
+  display: flex;
+}
+
+.hero-title-word span:last-of-type {
+  letter-spacing: 0;
+}
+
+.hero-title-word-2 {
+  align-self: center;
+  margin-right: 59px;
+  line-height: 100px;
+}
+
+.hero-title-word-3 {
+  align-self: end;
+  line-height: 100px;
+}
+
+.extra-space {
+  letter-spacing: 60px;
+}
+
+.hero-subtext-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px 51px;
+  color: #FFF;
+  font-family: Raleway;
+  font-weight: 300;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 19px;
+}
+
+.hero-subtext {
+  position: relative;
+  margin-left: 28px;
+}
+
+.cta-button {
+  position: relative;
+  width: 256px;
+  height: 51px;
+  border: 1px solid #fff;
+  border-radius: 0;
+  color: #FFF;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 28px;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.cta-button:hover {
+  color: black;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+/* Cover CSS End */
+
+/* Lots CSS Start */
+
+.lots {
+  margin: 0 24px 0;
+}
+
+.lot {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lots-heading {
+  margin: 0 0 27px 40px;
+  color: #000;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  list-style-type: none;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-basis: 334px;
+}
+
+.card-name {
+  position: relative;
+  padding: 51px 40px 0px;
+  color: #FFF;
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 26.4px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.card-content {
+  position: relative;
+  padding: 0px 40px 48px;
+  color: #FFF;
+  font-family: Raleway;
+  font-weight: 300;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.dots-card-3-content {
+  letter-spacing: 2.6px;
+}
+
+.card-1 {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.card-2 {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.card-3 {
+  background-image: url(../images/card-lot-03.jpg);
+}
+
+.card {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.see-more-lots-link {
+  display: inline-block;
+  margin: 30px 0 146px 40px;
+  font-size: 20px;
+}
+
+/* Lots CSS End */
+
+/* About CSS Start */
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 72px;
+  margin: 0 24px 181px;
+  padding: 35px 0 0 47px;
+}
+
+.elipse {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.logo-white {
+  box-sizing: content-box;
+  width: 148px;
+  margin: auto 0;
+  padding: 64px 45.5px 62px 46.5px;
+}
+
+.about-content {
+  width: 100%;
+  margin-top: 98px;
+  padding-top: 3px;
+}
+
+.about-title {  
+  margin-bottom: 100px;
+  color: #000;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.about-text {
+  margin-bottom: 24px;
+  color: #000;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 24px; /* 120% */
+}
+
+.about-content p:first-of-type {
+  margin-right: 5px;
+}
+
+.about-content p:last-of-type {
+  margin-bottom: 0px;
+}
+
+/* About CSS End */
+
+/*Footer CSS Start */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin: 0 50px 88px;
+}
+
+.footer-links {
+  line-height: normal;
+  text-align: center;
+  list-style-type: none;
+}
+
+.socials-icon {
+  width: 48px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 48px;
+}
+
