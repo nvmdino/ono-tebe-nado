@@ -219,10 +219,25 @@ a {
   list-style-type: none;
 }
 
+.card-1 {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.card-2 {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.card-3 {
+  background-image: url(../images/card-lot-03.jpg);
+}
+
 .card {
   position: relative;
   display: flex;
   flex-basis: 334px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card-name {
@@ -251,24 +266,6 @@ a {
 
 .dots-card-3-content {
   letter-spacing: 2.6px;
-}
-
-.card-1 {
-  background-image: url(../images/card-lot-01.jpg);
-}
-
-.card-2 {
-  background-image: url(../images/card-lot-02.jpg);
-}
-
-.card-3 {
-  background-image: url(../images/card-lot-03.jpg);
-}
-
-.card {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .see-more-lots-link {
@@ -309,7 +306,7 @@ a {
   padding-top: 3px;
 }
 
-.about-title {  
+.about-title { 
   margin-bottom: 100px;
   color: #000;
   font-family: Raleway;
